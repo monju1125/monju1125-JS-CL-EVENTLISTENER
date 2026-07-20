@@ -1,0 +1,30 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/SeleniumTest.java",
+      "testCases": [
+        {
+          "methodName": "testButton1Text1",
+          "label": "Verify Button1 updates Text1",
+          "description": "Checks that the initial text of element 'text1' is correct and updates to 'button1 clicked' when Button1 is clicked."
+        },
+        {
+          "methodName": "testButton1Text2",
+          "label": "Verify Button1 updates Text2",
+          "description": "Validates that element 'text2' starts with the expected text and changes to 'either button1 or button2 clicked' when Button1 is clicked."
+        },
+        {
+          "methodName": "testButton2Text3",
+          "label": "Verify Button2 updates Text3",
+          "description": "Ensures that element 'text3' has the correct initial text and updates to 'button2 clicked' when Button2 is clicked."
+        },
+        {
+          "methodName": "testButton2Text2",
+          "label": "Verify Button2 updates Text2",
+          "description": "Confirms that element 'text2' starts with the expected text and changes to 'either button1 or button2 clicked' when Button2 is clicked."
+        }
+      ]
+    }
+  ]
+}
